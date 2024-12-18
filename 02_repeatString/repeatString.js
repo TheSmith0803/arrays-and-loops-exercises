@@ -1,7 +1,16 @@
 const repeatString = function(string, num) {
-    for (let i = 0; i < num; i++) {
-        string.concat();
+    let count = 1;
+    let arr = [];
+
+    while (count < num) {
+        arr.push(string);
+        count++;
     }
+
+    step1 = arr.join();
+    final = step1.replaceAll(",", "");
+
+    return final;
 };
 
 // Do not edit below this line
