@@ -5,7 +5,7 @@ const reverseString = function(user_input) {
         words_arr[i] = words_arr[i].split('').reverse().join().replaceAll(',', '');
     }
     
-    words_arr = words_arr.join(' ').replaceAll(',', '');
+    words_arr = words_arr.join(' ');
 
     return words_arr;
 };
