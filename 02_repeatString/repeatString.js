@@ -1,5 +1,9 @@
 const repeatString = function(string, num) {
-    let count = 1;
+    if (num < 0) {
+        return "ERROR";
+    }
+
+    let count = 0;
     let arr = [];
 
     while (count < num) {
